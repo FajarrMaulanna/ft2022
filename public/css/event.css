@@ -1,0 +1,237 @@
+.jumboFT
+{
+    width: 1366px;
+}
+
+.bgPage2
+{
+    margin-top: -37px;
+}
+
+.bgPage2::before
+{
+    content: "";
+    position: absolute;
+    width: 612px;
+    height: 612px;
+    background: #E83D37;
+    right: 0;
+    top: 0;
+    filter: blur(300px);
+    border-radius: 50%;
+}
+
+.bgPage2::after
+{
+    content: "";
+    position: absolute;
+    width: 581px;
+    height: 581px;
+    background: #748085;
+    filter: blur(300px);
+    border-radius: 50%;
+    bottom: 0;
+}
+
+.pPage_2
+{
+    font-family: Rubik, sans-serif;
+    font-size: 194px;
+    font-weight: 700;
+    text-shadow:
+        -1px -1px 0 rgba(42, 188, 251, 0.3),  
+        1px -1px 0 rgba(42, 188, 251, 0.3),
+        -1px 1px 0 rgba(42, 188, 251, 0.3),
+        1px 1px 0 rgba(42, 188, 251, 0.3);
+}
+
+.time
+{
+    height: max-content;
+}
+
+.line
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+
+    width: 91px;
+    height: 40px;
+
+    background: #2BBBFA;
+    border-radius: 10px;
+}
+
+.timeline::before
+{
+    content: "";
+    position: absolute;
+    width: 3px;
+    top: 0;
+    bottom: 0;
+    background: #2BBBFA;
+    left: 50%;
+    z-index: -1;
+}
+
+.lineUl
+{
+    height: 30px;
+}
+
+.lineUl::before
+{
+    content: "";
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    left: 51%;
+    transform: translateX(-50%);
+    border: 1px solid #000;
+    border-radius: 50%;
+}
+
+.lineUl::after
+{
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    left: 51%;
+    top: 41%;
+    transform: translate(-50%, -50%);
+    background: #000;
+    border-radius: 50%;
+}
+
+.lineUl li
+{
+    position: absolute;
+    width: max-content;
+    list-style: none;
+}
+
+.lineUl li:first-child
+{
+    left: 100px;
+    font-weight: bold;
+}
+
+.lineUl li:last-child
+{
+    font-weight: bold;
+    padding: 4px 8px;
+    right: 100px;
+    background: linear-gradient(90deg, #2ABCFB -10.58%, rgba(251, 42, 42, 0.5) 114.96%);
+    border-radius: 10px;
+}
+
+.panduan a
+{
+    background: #2ABCFB;
+}
+
+.foooter
+{
+    height: 297px;
+}
+
+.foooter i
+{
+    font-size: 40px;
+}
+
+.foooter img
+{
+    margin: 12px 0;
+}
+
+@media screen and (max-width: 768px){
+    .jTron
+    {
+        height: 350px !important;
+    }
+
+    .jTron p
+    {
+        color: #000 !important;
+    }
+
+    .jTron .col-1
+    {
+        width: 10%;
+    }
+
+    .jTron .col-11
+    {
+        width: 75%;
+    }
+
+    .kategori
+    {
+        margin-top: 20px;
+        text-align: center;
+    }
+
+    .pPage_2
+    {
+        font-size: 55px;
+    }
+
+    .bgPage2::after,
+    .bgPage2::before
+    {
+        width: 50%;
+    }
+
+    .lineUl
+    {
+        height: 80px;
+    }
+
+    .lineUl::after
+    {
+        top: 15%;
+    }
+
+    .lineUl li
+    {
+        width: 135px;
+    }
+
+    .dpanduan
+    {
+        flex-direction: row !important;
+    }
+
+    .col-5,
+    .col-2,
+    .col-6
+    {
+        width: 100%;
+    }
+
+    .col-2
+    {
+        display: flex;
+        justify-content: center;
+    }
+
+    .col-2 img
+    {
+        width: 50%;
+    }
+
+    .foooter i
+    {
+        font-size: 20px;
+    }
+
+    .foooter p,
+    .foooter a
+    {
+        font-size: 12px;
+    }
+}

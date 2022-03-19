@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik&family=Titillium+Web&display=swap');
+
+*
+{
+    font-family: 'Titillium Web', sans-serif;
+}
+
+.video
+{
+    position: fixed;
+    width: 100%;
+    z-index: -2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.videoo
+{
+    position: fixed;
+    width: 100%;
+    z-index: -1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.fs-7
+{
+    font-size: 12px;
+}
+
+.text-blueFT
+{
+    color: #1B75BB;
+}
+
+i
+{
+    font-size: 32px;
+    color: #1B75BB;
+    margin-right: 18.67px;
+    margin-bottom: 10px;
+}
+
+i:last-child
+{
+    margin-right: 0;
+}
+
+.text-coming
+{
+    width: 400px;
+}
+
+.f-rubik
+{
+    font-family: 'Rubik', sans-serif;
+}
+
+.f-tw
+{
+    font-family: 'Titillium Web', sans-serif;
+}
+.bg-ft
+{
+    background: rgba(255,255,255,0.25);
+}

@@ -1,0 +1,154 @@
+.menuEvent
+{
+    width: max-content;
+    z-index: 2;
+}
+
+.menuEvent span
+{
+    display: block;
+    width: max-content;
+    height: 40px;
+    padding: 8px 16px;
+    background: rgba(42, 188, 251, 0.25);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.menuEvent span:hover,
+.menuEvent span.aktiv
+{
+    background: linear-gradient(90deg, #2ABCFB -10.58%, rgba(251, 42, 42, 0.5) 114.96%);
+}
+
+.bayar,
+.nbayar
+{
+    padding: 4px 12px;
+    width: 67px;
+    height: 32px !important;
+    color: #fff;
+}
+
+.bayar
+{
+    background: #20B15A;
+}
+
+.nbayar
+{
+    background: #FF302F;
+}
+
+.tbData img
+{
+    width: 40px;
+    border-radius: 50%;
+}
+
+.tbData label
+{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border-radius: 50%;
+    background: #FF302F;
+}
+
+.tbData label i
+{
+    font-size: 24px;
+    border-radius: 50%;
+    color: #fff;
+}
+
+.tbData button
+{
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    cursor: pointer;
+    border: none;
+}
+
+.hijau
+{
+    background: #20B15A !important;
+}
+
+table.dataTable tbody tr
+{
+    background: transparent;
+}
+
+table.dataTable tbody th, 
+table.dataTable tbody td {
+    padding: 0px 10px;
+    vertical-align: middle;
+}
+
+.paginate_button,
+.paginate_button.current 
+{
+    background: transparent !important;
+}
+
+th.sorting
+{
+    width: max-content !important;
+}
+
+table.dataTable
+{
+    width: max-content;
+}
+
+table.tbSM
+{
+    width: 100% !important;
+}
+
+.rowData
+{
+    overflow: auto;
+}
+
+.btnDel
+{
+    width: 40px !important;
+    height: 40px !important;
+    background: #FF302F;
+    border-radius: 10px;
+}
+
+.btnTambah
+{
+    padding: 10px 5px;
+    width: 116px;
+    height: 40px;
+    background: #2ABCFB;
+    border-radius: 10px;
+}
+
+.spFoto .bx-trash,
+#closeSp,
+.mpFoto .bx-trash,
+#closeMp
+{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 768px){
+    .menuEvent
+    {
+        margin: 3px;
+    }
+}

@@ -1,0 +1,21 @@
+.bg-FT
+{
+    background: #24A1DA !important;
+}
+
+.text-FT
+{
+    color: #24A1DA !important;
+}
+
+.bg-outline-FT
+{
+    border: 1px solid #24A1DA !important;
+}
+
+.navZ
+{
+    top: 0;
+    z-index: 999;
+    transition: .5s all ease;
+}

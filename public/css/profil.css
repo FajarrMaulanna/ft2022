@@ -1,0 +1,68 @@
+.imgProfil
+{
+    padding: 20px;
+    width: 144px;
+    height: 144px;
+    background: #FFFFFF;
+    border-radius: 50%;
+}
+
+.status
+{
+    padding: 4px 8px;
+    width: 144px;
+    height: 32px;
+    background: #31D974;
+    border-radius: 10px;
+}
+
+.biodata
+{
+    background: #FFFFFF;
+    border-radius: 10px;
+}
+
+.biodata tr
+{
+    width: 50%;
+}
+
+.btnEdit
+{
+    position: relative;
+    padding: 8px 16px;
+    width: 117px;
+    height: 46px;
+    background: #0196D0;
+    border-radius: 5px;
+    z-index: 3;
+}
+
+.boxEdit
+{
+    z-index: 3;
+}
+
+.boxEdit input,
+.boxEdit select
+{
+    border: 1px solid #000;
+    background: transparent;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 768px){
+    .col-3,
+    .col-5,
+    .col-7,
+    .col-8,
+    .col-10
+    {
+        width: 100%;
+    }
+
+    th
+    {
+        font-size: 10px;
+    }
+}

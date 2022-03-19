@@ -1,0 +1,284 @@
+.page_1
+{
+    margin-top: 110px;
+}
+
+.page_1::after
+{
+    content: "";
+    position: absolute;
+    width: 479px;
+    height: 479px;
+    right: 0;
+    top: 0;
+    background: #E83D37;
+    opacity: 0.5;
+    filter: blur(300px);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.page_1::before
+{
+    content: "";
+    position: absolute;
+    width: 776px;
+    height: 775px;
+    bottom: 0;
+    left: 0;
+    transform: translate(-50%, 50%);
+    background: #2ABCFB;
+    opacity: 0.5;
+    filter: blur(300px);
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.rowAboutUs
+{
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.bgFontFT22
+{
+    transform: rotate(90deg);
+    top: 20%;
+    left: 20%;
+}
+
+.bgFontFT
+{
+    color: rgba(0,0,0,.2);
+    font-size: 96px;
+    font-weight: bold;
+    text-align: right;
+}
+
+.bgFontFT:last-child
+{
+    margin-top: -35px;
+}
+
+.imgFT
+{
+    max-width: 466px;
+    width: 100%;
+    height: 360px;
+}
+
+.color-blue
+{
+    color: #2ABCFB;
+}
+
+.rowInfo
+{
+    margin: auto;
+    padding: 22.5px 0;
+    border: 1px solid #000;
+    border-radius: 10px;
+    width: max-content;
+}
+
+.w-max
+{
+    padding: 30px;
+    width: max-content;
+    border-right: 1px solid #2ABCFB;
+}
+
+.w-max:last-child
+{
+    border-right: none;
+}
+
+.rowDesc
+{
+    justify-content: center;
+    flex-direction: row-reverse;
+    height: 100vh;
+}
+
+.position-img
+{
+    position: absolute;
+    bottom: 0;
+    right: 15%;
+}
+
+.rowSponsor
+{
+    justify-content: center;
+}
+
+.cardSponsor
+{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    width: 392.27px;
+    height: 448px;
+    border-radius: 10px;
+}
+
+.imgPlatinum
+{
+    max-width: 240px;
+    width: 100%;
+}
+
+.imgDiamond
+{
+    max-width: 74px;
+    width: 100%;
+}
+
+.imgGold
+{
+    max-width: 74px;
+    width: 100%;
+}
+
+.imgSilver
+{
+    max-width: 50px;
+    width: 100%;
+}
+
+.imgg
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.imgg img
+{
+    margin: 1rem;
+}
+
+.bronze img
+{
+    width: 100px;
+    margin-right: 32px;
+}
+
+.foooter
+{
+    height: 297px;
+}
+
+.foooter i
+{
+    font-size: 40px;
+}
+
+.foooter img
+{
+    margin: 12px 0;
+}
+
+@media screen and (max-width: 768px){
+
+    .header .col-5,
+    .header .col-4
+    {
+        width: 100%;
+    }
+
+    .header .col-4
+    {
+        text-align: center;
+    }
+
+    .page_1::after,
+    .page_1::before
+    {
+        width: 50%;
+    }
+
+    .header .col-5:last-child
+    {
+        margin-top: 1rem;
+        text-align: justify;
+    }
+
+    .rowInfo
+    {
+        width: 100%;
+        border: none;
+        padding: 0;
+    }
+
+    .w-max
+    {
+        margin-right: 10px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #000;
+        border-radius: 10px;
+    }
+
+    .w-max:last-child
+    {
+        border-right: 1px solid #000;
+    }
+
+    .rowDesc
+    {
+        flex-direction: row;
+        height: 100%;
+    }
+
+    .rowDesc img
+    {
+        display: block;
+        width: 50%;
+        margin: 0 auto !important;
+    }
+
+    .rowDesc .col-4
+    {
+        width: 50%;
+    }
+
+    .rowDesc .fs-5
+    {
+        font-size: 12px !important;
+    }
+
+    .position-img
+    {
+        position: static;
+    }
+
+    .rowSponsor .col-5
+    {
+        width: 100%;
+    }
+
+    .cardSponsor
+    {
+        padding: 10px;
+        width: 90%;
+        margin-bottom: 20px;
+    }
+
+    .textDesc
+    {
+        font-size: 12px;
+    }
+
+    .foooter i
+    {
+        font-size: 20px;
+    }
+
+    .foooter p,
+    .foooter a
+    {
+        font-size: 12px;
+    }
+}
