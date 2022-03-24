@@ -75,7 +75,10 @@ Route::post('valorant/profile/edit', [NetworkController::class, 'post']);
 Route::get('valorant/chart', [NetworkController::class, 'chart'])->name('chartvalorant');
 
 
-
+Route::get('/comingsoon', function () {
+     $data['title'] = 'Coming Soon';
+    return view('comingsoon', $data);
+});
 
 // Route::get('/countdown', function () {
 //     $data['title'] = 'Countdownpage';

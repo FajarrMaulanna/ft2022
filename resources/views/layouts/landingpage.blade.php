@@ -59,6 +59,9 @@
                                 @endforeach
                             </ul>
                         </li>
+                        <li class="nav-item me-5">
+                            <a class="nav-link text-FT" href="http://unand.net/GuideBookFiretech2022">Guidebook</a>
+                        </li>
                         <li class="nav-item me-5 @if($title == "Login" || $title == "Register") ms-5 @endif">
                             <a class="nav-link text-FT" href="{{ route('aboutus') }}">Tentang Kami</a>
                         </li>
@@ -76,9 +79,10 @@
                                 <li class="nav-item me-5">
                                     <a class="nav-link text-FT bg-outline-FT btn" href={{ route('register') }} style="width: 91px;">Register</a>
                                 </li>
-                                <li class="nav-item">
+<!--                                <li class="nav-item">
                                     <a class="nav-link bg-FT text-white btn" href={{ route('login') }} style="width: 70px;">Login</a>
                                 </li>
+-->
                                 @break
                         @endswitch
                     </ul>
